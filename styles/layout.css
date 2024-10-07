@@ -1,0 +1,27 @@
+#app {
+  display: grid;
+  grid-template-columns: 43% 57%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  background-color: var(--shape-background);
+  overflow: auto;
+  padding: 6.25rem;
+}
+
+aside {
+  background-color: var(--shape-background);
+  padding: 6.25rem;
+  
+}
+
+.aside-container {
+  background-image: url(../assets/images/Background.png);
+}
+
+img {
+  max-width: 100%;
+}
+
