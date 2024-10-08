@@ -1,27 +1,29 @@
 #app {
   display: grid;
-  grid-template-columns: 43% 57%;
-  height: 100vh;
+  grid-template-columns: 1fr auto;
+  height: 100vh; 
   overflow: hidden;
-}
-
-main {
-  background-color: var(--shape-background);
-  overflow: auto;
-  padding: 6.25rem;
+  gap: 20px;
 }
 
 aside {
+  width: 400px;
+  height: 728px; 
+  background-image: url('../assets/images/Background.png');
+  margin: 20px;
+  border-radius: 10px;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+main {
+  overflow-y: auto;
+  padding: 2rem;
   background-color: var(--shape-background);
-  padding: 6.25rem;
-  
 }
 
-.aside-container {
-  background-image: url(../assets/images/Background.png);
-}
 
-img {
-  max-width: 100%;
-}
+
 
