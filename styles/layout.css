@@ -16,6 +16,26 @@ aside {
   background-position: center;
   background-repeat: no-repeat;
   position: fixed;
+
+  & h2 {
+    font-family: 'Leckerli one';
+    margin-left: 2rem;
+    color: var(--pink);
+    font-weight: 400;
+    line-height: auto;
+  }
+
+  & p {
+    font-family: 'Baloo 2';
+    color: var(--text-heading);
+    margin-left: 2rem;
+    font-weight: 600;
+    line-height: auto;
+  }
+
+  img {
+    padding: 2rem;
+  }
 }
 
 main {
