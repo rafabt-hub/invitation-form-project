@@ -5,24 +5,22 @@
 }
 
 aside {
-  background-color: var(--shape-body);
   background-image: url(../assets/images/Background.png);
+  background-color:  var(--shape-body);
+  border: 20px solid #131516;
   height: 100%;
-  background-size: contain; 
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   padding: 2rem;
-
-  img {
-    border-radius: 20px;
-    padding: 2rem;
-  }
+  border-radius: 12px;
 
   & h2 {
     font-family: 'Leckerli one';
     color: var(--pink);
     font-weight: 400;
     line-height: auto;
+    font-size: 40px;
  }
 
  & p {
@@ -54,7 +52,36 @@ main {
   }
 }
 
-.main-container {
+.make {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
 
+.main-container {
+overflow: auto;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px;
+gap: 40px;
+
+position: absolute;
+height: 1981px;
+left: 440px;
+right: 20px;
+top: 20px;
+
+background: #212427;
+border: 20px solid #131516;
+border-radius: 12px;
+}
+
+body {
+  background-color: #212427;
 }
 
