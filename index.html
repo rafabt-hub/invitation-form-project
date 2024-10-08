@@ -31,6 +31,82 @@
     <main>
       <div class="main-container">
         <h1>Crie seu convite</h1>
+        <img src="assets/icons/calendar.svg" alt="ícone de calendario">
+        <h3>Sobre o evento</h3>
+
+        <form method="post" enctype="multipart/form-data">
+          <fieldset class="event-info">
+            <legend>Título</legend>
+
+            <div class="input-wrapper">
+              <input 
+               id="event-name"
+               type="text"
+               placeholder="Nome do evento">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="begin">Ínicio</label>
+              <input type="date" id="begin" name="begin" lang="pt-BR">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="end">Fim</label>
+              <input type="date" id="end" name="end" lang="pt-BR">
+            </div>
+
+            <div class="radio-wrapper">
+              <div class="radio-inner">
+                <div class="radio-image">
+                <input type="radio" name="event-class" value="in person" id="in person">
+                <img src="assets/icons/building-2.svg" alt="ícone de predio">
+                <label for="in person">Presencial</label>
+              </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image">
+                  <input type="radio" name="event-class" value="on-line" id="on-line">
+                  <img src="assets/icons/video.svg" alt="ícone de camera">
+                  <label for="on-line">On line</label>
+                </div>
+            </div>   
+
+            <legend>Local</legend>
+
+            <div class="input-wrapper">
+              <input 
+               id="event-name"
+               type="text"
+               placeholder="Link ou endereço">
+            </div>
+
+            <div class="textarea-wrapper">
+              <label for="details">Descrição</label>
+              <textarea name="details" id="details"
+                cols="30" rows="5"
+                placeholder="Escreva sobre os detalhes do evento"
+                ></textarea>
+            </div>
+          </fieldset>
+
+        <img src="assets/icons/paintbrush-vertical.svg" alt="ícone de pincel">
+        <h3>Personalização</h3>
+
+        <fieldset class="personalize">
+          <div class="radio-wrapper">
+            <div class="radio-inner">
+              <div class="radio-image"></div>
+              <input type="radio" name="event-color" value="colors" id="colors">
+              <label for="colors">Cor Principal</label>
+            </div>
+
+
+
+
+
+        </fieldset>
+
+        </form>
       </div>
     </main>
   </div>
