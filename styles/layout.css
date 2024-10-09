@@ -32,7 +32,6 @@ aside {
 }
 
 main {
-  padding: 20px;
   background-color: var(--shape-body);
 
   & h1 {
