@@ -150,3 +150,23 @@ body {
 .cyan {
   background-color: var(--cyan);
 }
+
+.themes {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.themes > div {
+  background-color: var(--input-stroke);
+  border-radius: 8px;
+  text-align: center;
+
+  & p {
+    padding: 5px;
+    font-family: 'Open sans';
+    color: var(--text-heading);
+    font-size: 14px;
+  }
+}
