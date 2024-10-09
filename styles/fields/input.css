@@ -9,6 +9,13 @@ input, textarea, select {
   padding: 1rem;
 }
 
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .color {
+  border: 4px solid var(--brand-light);
+}
 
 
 

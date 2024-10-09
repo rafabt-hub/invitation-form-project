@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Festivite</title>
 
+  <link rel="stylesheet" href="styles/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
   <div id="app">
@@ -29,7 +29,6 @@
     </aside>
 
     <main>
-
       <div class="main-container">
         <h1>Crie seu convite</h1>
         <div class="make">
@@ -91,23 +90,67 @@
                 ></textarea>
             </div>
           </fieldset>
+         <div class="color-pallete">
+         <img src="assets/icons/paintbrush-vertical.svg" alt="ícone de pincel">
+         <h3>Personalização</h3>
+         </div>
 
-        <img src="assets/icons/paintbrush-vertical.svg" alt="ícone de pincel">
-        <h3>Personalização</h3>
-
-        <fieldset class="personalize">
-          <div class="radio-wrapper">
-            <div class="radio-inner">
-              <div class="radio-image"></div>
-              <input type="radio" name="event-color" value="colors" id="colors">
-              <label for="colors">Cor Principal</label>
+          <div class="personalize">
+            <label>
+              <input type="radio" name="color" value="blue">
+              <span class="color blue"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="navy">
+              <span class="color navy"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="purple">
+              <span class="color purple"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="fuschia">
+              <span class="color fuschia"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="pink">
+              <span class="color pink"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="danger">
+              <span class="color danger"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="orange">
+              <span class="color orange"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="yellow">
+              <span class="color yellow"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="lime">
+              <span class="color lime"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="green">
+              <span class="color green"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="cyan">
+              <span class="color cyan"></span>
+            </label>
+              <label for="color">Cor Principal</label>
             </div>
+          </div>
 
+          <h1>Tema do evento</h1>
+          <div class="theme">
+            <img src="assets/images/boloniver.svg" alt="imagem de bolo de festa">
+            <p>Aniversário</p>
+            <div>
+          </div>
 
-
-
-
-        </fieldset>
 
         </form>
       </div>
