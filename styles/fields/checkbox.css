@@ -1,0 +1,17 @@
+.form-container {
+  width: 100%;
+  max-width: 820px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-half {
+  flex: 1;
+}
+
+.checkbox-container {
+  margin-bottom: 10px;
+}

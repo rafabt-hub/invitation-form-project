@@ -169,3 +169,15 @@ body {
     font-size: 14px;
   }
 }
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+ & p {
+  font-family: 'Baloo 2';
+  color: var(--text-heading);
+  font-size: 18px;
+  font-weight: 600;
+ }
+}
