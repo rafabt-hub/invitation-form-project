@@ -1,7 +1,7 @@
 #app {
   display: grid;
   grid-template-columns: 30% 70%;
-  height: 100vh; 
+  height: 100vh;
 }
 
 aside {
@@ -59,25 +59,6 @@ main {
     width: 24px;
     height: 24px;
   }
-}
-
-.main-container {
-overflow: auto;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 80px;
-gap: 40px;
-
-position: absolute;
-height: 1981px;
-left: 440px;
-right: 20px;
-top: 20px;
-
-background: #212427;
-border: 20px solid #131516;
-border-radius: 12px;
 }
 
 body {
@@ -180,4 +161,45 @@ body {
   font-size: 18px;
   font-weight: 600;
  }
+}
+
+
+
+
+h2 {
+font-family: 'Leckerli one';
+        color: var(--pink);
+        font-weight: 400;
+        line-height: auto;
+        font-size: 40px;
+}
+p {
+  font-family: 'baloo 2';
+  color: var(--text-heading);
+  font-weight: 600;
+  line-height: auto;
+}
+.left-side {
+  background-image: url(../assets/images/Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 30%;
+  position: fixed;
+  min-height: 100%;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.main-page {
+  background: #131516;
+  padding: 1em;
+}
+
+.main-container {
+  margin-left: 35%;
+  background: #212427;
+  padding: 2em;
+  color: #fff;
+  border-radius: 10px;
 }

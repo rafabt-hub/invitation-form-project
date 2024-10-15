@@ -1,4 +1,26 @@
-input, textarea, select {
+input {
+  appearance: none;
+  width: 100%;
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  outline: 2px solid var(--input-stroke);
+  background-color: var(--input-base);
+
+  padding: 1rem;
+}
+
+textarea {
+  appearance: none;
+  width: 100%;
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  outline: 2px solid var(--input-stroke);
+  background-color: var(--input-base);
+
+  padding: 1rem;
+}
+
+select {
   appearance: none;
   width: 100%;
   border-radius: .5rem;
@@ -52,18 +74,6 @@ input[type="radio"]:checked + .color {
   border-radius: 10px;
   position: relative;
   cursor: pointer;
-}
-
-.toggle-container::after {
-  content: '';
-  width: 16px;
-  height: 16px;
-  background-color: red;
-  position: absolute;
-  border-radius: 50%;
-  top: 2px;
-  left: 2px;
-  transition: left 0.2s;
 }
 
 .file-container {
