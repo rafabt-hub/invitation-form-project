@@ -27,7 +27,6 @@
       </div>
     </div>
   
-  
     <div class="right-side">
 
       <div class="main-container">
@@ -42,46 +41,45 @@
             <legend>Título</legend>
 
             <div class="input-wrapper">
-              <input 
-               id="event-name"
+              <input id="event-name"
                type="text"
                placeholder="Nome do evento">
             </div>
 
+          <div class="flexfields"> 
             <div class="input-wrapper">
               <label for="begin">Ínicio</label>
-              <input type="date" id="begin" name="begin" lang="pt-BR">
+              <input type="date" id="begin" name="begin" lang="pt-BR" class="boxform">
             </div>
 
             <div class="input-wrapper">
               <label for="end">Fim</label>
-              <input type="date" id="end" name="end" lang="pt-BR">
+              <input type="date" id="end" name="end" lang="pt-BR" class="boxform">
             </div>
 
-            <div class="radio-wrapper">
-              <div class="radio-inner">
+           
                 <div class="radio-image">
+                  <label>Tipo</label>
                 <input type="radio" name="event-class" value="in person" id="in person">
                 <img src="assets/icons/building-2.svg" alt="ícone de predio">
                 <label for="in person">Presencial</label>
-              </div>
-
-                <div class="radio-inner">
-                  <div class="radio-image">
                   <input type="radio" name="event-class" value="on-line" id="on-line">
                   <img src="assets/icons/video.svg" alt="ícone de camera">
                   <label for="on-line">On line</label>
                 </div>
-            </div>   
+               
 
-            <legend>Local</legend>
+            
 
             <div class="input-wrapper">
+              <legend>Local</legend>
               <input 
                id="event-name"
                type="text"
                placeholder="Link ou endereço">
             </div>
+        </div> 
+
 
             <div class="textarea-wrapper">
               <label for="details">Descrição</label>
@@ -257,6 +255,7 @@
         <button class="btn-submit" type="submit">Gerar convite</button>
         </form>
       </div>
+     
     </main>
     </div>
   
