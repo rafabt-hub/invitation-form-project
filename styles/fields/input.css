@@ -10,12 +10,16 @@ input {
 
 textarea {
   appearance: none;
-  width: 100%;
+  width: 560px;
+  height: 136px;
   border-radius: .5rem;
   border: 2px solid transparent;
   outline: 2px solid var(--input-stroke);
   background-color: var(--input-base);
   padding: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 select {
