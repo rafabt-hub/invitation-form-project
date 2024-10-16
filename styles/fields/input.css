@@ -5,7 +5,6 @@ input {
   border: 2px solid transparent;
   outline: 2px solid var(--input-stroke);
   background-color: var(--input-base);
-
   padding: 1rem;
 }
 
@@ -16,7 +15,6 @@ textarea {
   border: 2px solid transparent;
   outline: 2px solid var(--input-stroke);
   background-color: var(--input-base);
-
   padding: 1rem;
 }
 
@@ -27,7 +25,6 @@ select {
   border: 2px solid transparent;
   outline: 2px solid var(--input-stroke);
   background-color: var(--input-base);
-
   padding: 1rem;
 }
 
@@ -102,3 +99,39 @@ label {
   font-weight: bold;
   color: var(--text-body);
 }
+
+
+.input-tittle {
+gap: 8px;
+width: 560px;
+height: 48px;
+background: #1C1F21;
+border: 1px solid #363B40;
+border-radius: 8px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+input[type="date"]:focus-within {
+  outline: .25rem solid var(--input-stroke);
+  border-color: var(--brand-light);
+  outline-offset: .1px;
+}
+
+input[type="checkbox"] {
+  appearance: none; 
+  width: 20px;
+  height: 20px;
+  background-color: var(--input-base); 
+  border: 2px solid var(--input-stroke); 
+  cursor: pointer;
+  border-radius: 4px;
+  gap: 1rem;
+}
+
+input[type="checkbox"]:checked {
+  content: '✓';
+  border: 2px solid var(--brand-light);
+ }
+
