@@ -208,6 +208,17 @@ p {
 
 .flexfields {
   display: grid;
+  width: 560px;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 1rem;
+}
+
+.title-form {
+  font: 'Open sans';
+  font-size: 0.875rem;
+  color: var(--text-body);
+  width: 560px;
+  padding: 1.75rem;
+  display: grid;
+  grid-template-columns: 1fr 2.2fr;
 }
