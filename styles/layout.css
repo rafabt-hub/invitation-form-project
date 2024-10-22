@@ -146,6 +146,7 @@ body {
   background-color: var(--input-stroke);
   border-radius: 8px;
   text-align: center;
+  border: 2px solid transparent;
 
   & p {
     padding: 5px;
@@ -153,12 +154,22 @@ body {
     color: var(--text-heading);
     font-size: 14px;
   }
+
+  & input[type="radio"]:has(:checked) + img {
+    border: 2px solid var(--brand-light);
+} 
+}
+
+.themes div:hover, .themes div:focus {
+  border: 2px solid var(--brand-light);
+  outline: none;
 }
 
 .contact-info {
   display: flex;
   align-items: center;
   gap: 1rem;
+
  & p {
   font-family: 'Baloo 2';
   color: var(--text-heading);
@@ -174,6 +185,7 @@ font-family: 'Leckerli one';
         line-height: auto;
         font-size: 40px;
 }
+
 p {
   font-family: 'baloo 2';
   color: var(--text-heading);
