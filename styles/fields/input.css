@@ -123,19 +123,3 @@ input[type="date"]:focus-within {
   outline-offset: .1px;
 }
 
-input[type="checkbox"] {
-  appearance: none; 
-  width: 20px;
-  height: 20px;
-  background-color: var(--input-base); 
-  border: 2px solid var(--input-stroke); 
-  cursor: pointer;
-  border-radius: 4px;
-  gap: 1rem;
-}
-
-input[type="checkbox"]:checked {
-  content: '✓';
-  border: 2px solid var(--brand-light);
- }
-

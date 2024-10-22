@@ -15,5 +15,30 @@
 }
 
 .checkbox-container {
-  margin-bottom: 10px;
+  width: 560px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  display: flex;
+  gap: .5rem;
+  align-items: flex-start;
+  position: relative;
+
+
+
+  & [type="checkbox"] {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+
+  .checkbox-image {
+    flex: 0 0 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/icons/checkbox.svg);
+  }
+
+  &:has(:checked) .checkbox-image {
+    background-image: url(../../assets/icons/checkbox-checked.svg);
+  }
 }
