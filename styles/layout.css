@@ -33,6 +33,7 @@ aside {
 
 main {
   background-color: var(--shape-body);
+  
 
   & h1 {
   font-family: 'baloo 2';
@@ -54,7 +55,7 @@ main {
 .make {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   img {
     width: 24px;
     height: 24px;
@@ -213,7 +214,7 @@ p {
 .main-container {
   margin-left: 35%;
   background: #212427;
-  padding: 2em;
+  padding: 5em;
   color: #fff;
   border-radius: 10px;
 }
@@ -223,6 +224,7 @@ p {
   width: 560px;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  margin-top: 1rem;
 }
 
 .title-form {

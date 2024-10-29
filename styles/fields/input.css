@@ -38,6 +38,7 @@ input[type="radio"] {
 
 input[type="radio"]:checked + .color {
   border: 4px solid var(--brand-light);
+ 
 }
 
 .form-container {
@@ -123,3 +124,6 @@ input[type="date"]:focus-within {
   outline-offset: .1px;
 }
 
+.input-wrapper {
+
+}
