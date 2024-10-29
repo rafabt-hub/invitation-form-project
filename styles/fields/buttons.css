@@ -1,5 +1,7 @@
 .btn-submit {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   padding: 10px 20px;
   background-color: var(--brand-dark);
   color: white;
@@ -7,4 +9,12 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 177px;
+  height: 48px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: flex-end;
 }
