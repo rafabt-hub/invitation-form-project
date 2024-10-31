@@ -44,6 +44,10 @@ input[type="radio"]:checked + .color {
   display: flex;
   gap: 20px;
   align-items: center;
+
+  & span {
+    color: var(--danger);
+  }
 }
 
 .form-group {
@@ -151,4 +155,18 @@ input[type="date"] {
 
 .title-events {
   margin-top: 4rem;
+}
+
+input {
+  &[disabled] {
+    background-color: var(--input-stroke);
+
+    border: 1px solid var(--input-stroke);
+
+    color: var(--text-body);
+  }
+
+  &:invalid {
+    border: 0.125rem solid var(--danger)
+  }
 }

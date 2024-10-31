@@ -248,9 +248,16 @@
           </div>
 
           <div class="form-container">
-            <input type="text" class="input-field" placeholder="Nome completo" name="nome">
+            <label for="name">Nome</label>
+            <input type="text" class="input-field" placeholder="Nome completo" name="nome" required>
+            <div class="error">
+              <img src="assets/icons/circle-alert.svg" alt="icone de alerta vermelho">
+              <span>Campo obrigatório</span>
+            </div>
             <div class="input-row">
+                <label for="email">E-mail</label>
                 <input type="email" class="input-field input-half" placeholder="exemplo@email.com" name="email">
+                <label for="phone">Telefone</label>
                 <input type="tel" class="input-field input-half" placeholder="(99) 99999-9999" name="telefone">
             </div>
           </div>
