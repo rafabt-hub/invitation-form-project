@@ -45,8 +45,10 @@ input[type="radio"]:checked + .color {
   gap: 20px;
   align-items: center;
 
-  & span {
+  & .span-error {
+    font: 'Open sans';
     color: var(--danger);
+    font-size: 12px;
   }
 }
 
