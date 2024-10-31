@@ -240,3 +240,19 @@ p {
   display: grid;
   grid-template-columns: 1fr 2.2fr;
 }
+
+.form-file {
+  width: 560px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 3rem;
+  align-items: center;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
