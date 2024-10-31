@@ -191,6 +191,7 @@ input {
 }
 
 .radio-wrapper {
+  background-color: var(--input-base);
   display: flex;
   align-items: center;
   justify-content: center;
