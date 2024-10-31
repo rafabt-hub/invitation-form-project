@@ -189,3 +189,19 @@ input {
     border: 0.125rem solid var(--danger)
   }
 }
+
+.radio-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  width: 8.125rem;
+  height: 2.5rem;
+  border: 2px solid var(--input-stroke);
+  border-radius: .5rem;
+}
+
+.radio-switch {
+  display: flex;
+  margin-top: 2rem;
+}
