@@ -1,17 +1,25 @@
 .form-container {
   width: 560px;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   
 }
 
 .input-row {
+  width: 560px;
   display: flex;
-  gap: 10px;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .input-half {
   flex: 1;
+}
+
+
+.input-row label {
+  display: block;
+  margin-bottom: 1rem;
 }
 
 .checkbox-container {

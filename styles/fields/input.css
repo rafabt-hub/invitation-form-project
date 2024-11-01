@@ -1,4 +1,6 @@
 input {
+  font-family: 'Open sans';
+  color: var(--text-body);
   appearance: none;
   width: 100%;
   border-radius: .5rem;
@@ -9,6 +11,8 @@ input {
 }
 
 textarea {
+  font-family: 'Open sans';
+  color: var(--text-body);
   appearance: none;
   width: 560px;
   height: 136px;
@@ -21,6 +25,8 @@ textarea {
 }
 
 select {
+  font-family: 'Open sans';
+  color: var(--text-body);
   appearance: none;
   width: 100%;
   border-radius: .5rem;
@@ -40,7 +46,8 @@ input[type="radio"]:checked + .color {
 }
 
 .form-container {
-  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -177,6 +184,10 @@ input[type="date"] {
   margin-top: 4rem;
 }
 
+.input-wrapper:has([disabled]) {
+  opacity: .5;
+}
+
 input {
   &[disabled] {
     background-color: var(--input-stroke);
@@ -188,6 +199,17 @@ input {
 
   &:invalid {
     border: 0.125rem solid var(--danger)
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    font-family:'Opens sans';
+  }
+
+  &:valid + .error {
+    display: none;
   }
 }
 
