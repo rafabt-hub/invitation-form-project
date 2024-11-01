@@ -23,6 +23,19 @@
   align-items: flex-start;
   position: relative;
 
+  & label {
+  font-family:'Open sans';
+  font-weight: 600;
+  font-size: 14px;
+  }
+
+  & strong {
+  font-family:'Open sans';
+  font-weight: 600;
+  font-size: 14px;
+  color:var(--brand-light);
+  }
+
 
 
   & [type="checkbox"] {

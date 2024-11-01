@@ -255,4 +255,39 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  & span {
+  font-family:'Open sans';
+  font-weight: 400;
+  }
 }
+
+
+.radio-switch {
+  & h3 {
+  font-family:'Open sans';
+  font-weight: 400;
+  }
+}
+
+.color-pallete {
+  & h3 {
+    font-family:'Baloo 2';
+    font-weight: 400;
+    }
+}
+
+.title-events {
+  & h1 {
+    font-family:'Open sans';
+    font-weight: 600;
+    font-size: 14px;
+    }
+}
+
+.make {
+  & h3 {
+    font-family:'Baloo 2';
+    font-weight: 400;
+    }
+}
+
