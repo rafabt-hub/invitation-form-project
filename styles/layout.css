@@ -295,3 +295,9 @@ p {
     }
 }
 
+.div {
+  width: 560px;
+  border-bottom: 2px solid var(--shape-button);
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
