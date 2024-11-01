@@ -38,6 +38,7 @@
   }
 
   & strong {
+  text-decoration: underline;
   font-family:'Open sans';
   font-weight: 600;
   font-size: 14px;
