@@ -46,6 +46,7 @@ input[type="radio"]:checked + .color {
 }
 
 .form-container {
+  background-color: var(--input-base);
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
