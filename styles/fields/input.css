@@ -213,26 +213,67 @@ input {
   }
 }
 
-.radio-wrapper {
-  background-color: var(--input-base);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.25rem;
-  width: 8.125rem;
-  height: 3rem;
-  border: 2px solid var(--input-stroke);
-  border-radius: .5rem;
-  margin-top: .5rem;
-}
-
 .radio-switch {
+  width: 272px;
+  height: 139px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.radio-container {
+.radio-wrapper {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  font-family: 'Open sans';
+  color: var(--text-body);
+  appearance: none;
+  width: 272px;
+  height: 54px;
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  outline: 2px solid var(--input-stroke);
+  background-color: var(--input-base);
+  padding: 1rem;
+}
+
+.radio-container {
+  background-color: var(--input-base);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.radio-container input[type="radio"] {
+  display: none;
+}
+
+.radio-container label {
+  display: flex;
+  gap: .5rem;
+  cursor: pointer;
+  padding: .35rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.radio-container label img {
+  display: block;
+  transition: 0.3s;
+}
+
+#presencial:checked + label {
+  background-color: var(--input-stroke);
+}
+
+#presencial:checked + label img {
+  background-color: var(--input-stroke);
+  content: url(/assets/icons/building-2.svg);
+}
+
+#online:checked + label {
+  background-color: var(--input-stroke);
+  border-color: var(--brand-light);
+}
+
+#online:checked + label img {
+  content: url(/assets/icons/video2.svg);
 }
