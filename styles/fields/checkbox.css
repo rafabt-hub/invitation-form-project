@@ -1,4 +1,5 @@
 .form-container {
+  background-color: var(--input-plaholder);
   width: 560px;
   display: grid;
   grid-template-columns: auto;
