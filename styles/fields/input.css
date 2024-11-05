@@ -45,6 +45,11 @@ input[type="radio"]:checked + .color {
  
 }
 
+.date-label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
 .form-container {
   background-color: var(--input-base);
   margin-top: 1rem;
