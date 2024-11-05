@@ -159,19 +159,22 @@ body {
     color: var(--text-heading);
     font-size: 14px;
   }
+}
 
-  & input[type="radio"]:has(:checked) + img {
-    border: 2px solid var(--brand-light);
-} 
+.theme > label {
+  background-color: var(--input-stroke);
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid transparent;
+  cursor: pointer;
 }
 
 .theme input[type="radio"] {
   display: none;
 }
 
-.theme div:hover, .theme div:focus {
-  border: 2px solid var(--brand-light);
-  outline: none;
+.themes:has(input[type="radio"]:checked) {
+  border-color: 2px solid var(--brand-light);
 }
 
 .contact-info {
