@@ -14,7 +14,7 @@
 </head>
 <body>
   <div class="main-page">
-    <div class="backgroundlefside">
+  
     <div class="left-side">
       <div class="content leftside">
         <img src="assets/images/Logo.png" alt="Logo Festivite">
@@ -25,7 +25,7 @@
           Crie um convite digital para seu evento
          </p>
       </div>
-    </div></div>
+    </div>
   
     <div class="right-side">
 
@@ -59,22 +59,22 @@
 
                 <div class="radio-switch">
                   <h3>Tipo</h3>
-
-                  <!-- Hugo Code start here -->
-
+                 <div class="radio-wrapper">
+                 <div class="radio-container">
+                   <input type="radio" name="event-class" value="in person" id="presencial">
+                   <label for="presencial">
+                   <img src="assets/icons/building-1.svg" alt="ícone de predio">
+                   <label for="in person">Presencial
+                   </label>
+                  </div>
                   <div class="radio-container">
-                    <input type="radio" name="modo" id="presencial" class="radio-input presencial">
-                    <label for="presencial" class="radio-button">
-                        <span class="icon">🏢</span> Presencial
+                    <input type="radio" name="event-class" value="online" id="online">
+                    <label for="online">
+                    <img src="assets/icons/video1.svg" alt="ícone de camera">
+                     Online
                     </label>
-            
-                    <input type="radio" name="modo" id="online" class="radio-input online">
-                    <label for="online" class="radio-button">
-                        <span class="icon">💻</span> Online
-                    </label>
-                </div>
-
-                <!-- Hugo Code finishing here -->
+                  </div>
+                 </div>
                 </div>
 
             <div class="input-wrapper">
